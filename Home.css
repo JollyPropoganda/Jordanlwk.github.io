@@ -97,7 +97,7 @@
     visibility: hidden;
     background-color: aliceblue;
     position: absolute;
-    left: 80%;
+    right: 0%;
     height: fit-content;
     width: fit-content;
     margin-top: 10px;
