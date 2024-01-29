@@ -292,7 +292,6 @@
   .stack span:nth-child(even) { --glitch-translate: -8px; }
   
 @media all and (min-width:40%) {
-    #intro_top {float: right;}
     .loading {flex-direction: row; }
 }
 
