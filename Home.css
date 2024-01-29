@@ -4,9 +4,9 @@
     padding: 0;
     margin: 0;
     overflow: scroll;
-    width: fit-content;
+    width: 100%;
     height: fit-content;
-  }
+}
 
 .Top {
     position: absolute;
