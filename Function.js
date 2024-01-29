@@ -65,7 +65,7 @@ function swapper() {
       y = y + 1;
   }
   else {
-      window.location.href = "./H̵͎̒́̄̊a̴͎̅̑̔c̶̻̽k̶̭̏̀̈͘e̵̲͆d̷̫͊.html";
+      window.location.href = "Hacking_Portfolio_Loading.html";
   }
 }
 
