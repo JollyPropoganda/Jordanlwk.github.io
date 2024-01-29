@@ -291,7 +291,7 @@
   .stack span:nth-child(odd) { --glitch-translate: 8px; }
   .stack span:nth-child(even) { --glitch-translate: -8px; }
 
-@media all and (min-width: 100%) {
+@media all and (min-width: 80%) {
     #button_div {
         margin-top: 20px;
     }
