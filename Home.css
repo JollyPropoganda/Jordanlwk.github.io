@@ -291,9 +291,6 @@
   .stack span:nth-child(odd) { --glitch-translate: 8px; }
   .stack span:nth-child(even) { --glitch-translate: -8px; }
   
-@media all and (min-width:40%) {
-    .loading {flex-direction: row; }
-}
 
 @media all and (max-width: 1300px) {
     #spin_wld {height: 70%; margin-top: 20%;}
