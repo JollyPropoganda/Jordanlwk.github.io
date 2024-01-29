@@ -2,6 +2,8 @@
     background-color: black;
     color: white;
     overflow: scroll;
+    width: fit-content;
+    height: fit-content;
 }
 
 #Title_bootstrap {
