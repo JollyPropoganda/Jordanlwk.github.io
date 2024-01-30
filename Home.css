@@ -298,6 +298,12 @@
     }
 }
 
+@media all and (max-width: 600px) {
+    #button_div {
+        margin-top: 10%;
+    }
+}
+
 @media all and (max-width: 1300px) {
     #spin_wld {height: 70%; margin-top: 20%;}
 }
