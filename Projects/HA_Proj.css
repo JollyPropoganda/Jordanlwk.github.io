@@ -172,7 +172,7 @@
     max-height: 150px;
     max-width: auto;
     margin: auto;
-    border: 10px solid black;
+    border: 10px solid rgb(255, 147, 39);
     border-radius: 50%;
 }
 
@@ -186,23 +186,23 @@
     text-decoration: none;
     font-size: 150%;
     color: #FAFAFA;
-    text-shadow: #000;
-    background-color: #000;
-    border: 10px solid #000;
+    text-shadow: rgb(255, 147, 39);
+    background-color: black;
+    border: 10px solid rgb(255, 147, 39);
     border-radius: 30px;
     width: 200px;
 }
 
 #Title_Banner {
     width: 100%;
-    background-image: url('../coding languages pic/Housekeeper_Background.jpg');
+    background-image: url('../coding languages pic/Heat_bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 10%;
     padding-bottom: 10%;
-    border-top: grey solid;
-    border-bottom: grey solid;
+    border-top: rgb(255, 147, 39) solid;
+    border-bottom: rgb(255, 147, 39) solid;
     border-width: 10px;
 }
 
@@ -252,10 +252,47 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
     text-decoration: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 50px;
+}
+
+#Proj_Outcome1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 200px;
+}
+
+#Title_statement {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: auto;
+    text-decoration: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+#Dropdown_Title {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: auto;
+    text-decoration: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#Proj_Statement1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    line-height: 200%;
+    width: 100%;
 }
 
 #Proj_Statement {
@@ -265,6 +302,31 @@
     margin-left: 10%;
     margin-right: 10%;
     line-height: 200%;
+}
+
+#Proj_Statement2 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 300px;
+    font-size: 80%;
+    line-height: 200%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#Proj_Statement3 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 200%;
+}
+
+#close {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0%;
 }
 
 #split_bar {
@@ -277,18 +339,74 @@
     background-color: #000;
 }
 
-#Logos {
-    display: flex;
-    width: 100%;
+#Sprint_1 {
+    display: inline-flex;
     height: fit-content;
+    width: 100%;
+    background-color: black;
+    border-top: 5px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
 }
 
-#Logos-pic {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    height: 50px;
+#Sprint_undone {
+    display: inline-flex;
+    height: fit-content;
+    width: 100%;
+    background-color: grey;
+    border-top: 5px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#dev_team {
+    width: 100%;
+    display: inline-flex;
+}
+
+#Kevin {
+    height: 250px;
     width: auto;
+    max-height: 300px;
+    max-width: auto;
+    border: 5px solid #000;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+#Jordan {
+    height: 250px;
+    width: auto;
+    max-height: 300px;
+    max-width: auto;
+    border: 5px solid #000;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+#Kevin_des {
+    display: inline-block;
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+#Jordan_des {
+    display: inline-block;
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+@media all and (max-width: 700px) {
+    #dev_team { display: block; }
 }
 
 #Agile {
@@ -368,15 +486,53 @@
     width: 100%;
 }
 
-#Proj_Statement1 {
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 80%;
-    margin-left: 15%;
-    margin-right: 15%;
-    line-height: 200%;
+#Sprint1_container {
+    width: 100%;
+    height: fit-content;
+    max-height: fit-content;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 5px solid grey;
+    border-bottom: 5px solid grey;
+    visibility: hidden;
+    display: none;
+    transition: 0.2s ease-in;
 }
-#Firebase {
+
+#bold {
+    font-weight: bold;
+}
+
+#Logos {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+}
+
+#Logos-pic {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: 50px;
+    width: auto;
+}
+
+#Logos {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+}
+
+#appsheet {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    height: 80px;
+    width: auto;
+}
+
+#Database_pic {
     margin-top: 80px;
     width: 70%;
     height: auto;
@@ -384,5 +540,53 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
+}
+
+#text_alignment {
+    width: 70%;
+    height: auto;
+    max-width: 800px;
+    margin: auto;
+
+}
+
+#image {
+    height: 200px;
+    width: auto;
+    display: block;
     border: 5px solid #000;
+    border-radius: 50%;
+    margin: auto
+}
+
+#Arrow_down {
+    right: 0%;
+    height: 20px;
+    width: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10%;
+}
+
+#Arrow_down2 {
+    right: 0%;
+    height: 20px;
+    width: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10%;
+}
+
+#Enlarge {
+    background-color: transparent;
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    right: 0%;
+    height: 20px;
+    width: auto;
+    margin-right: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
 }

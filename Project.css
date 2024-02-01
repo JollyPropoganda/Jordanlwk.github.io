@@ -177,7 +177,32 @@
     min-width: 300px;
     height: 200px;
     background-color: #909090;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#Proj_Span {
+    display: flex;
+}
+
+#Project1 {
+    display: flex;
+    height: 100%;
+    width: auto;
+}
+
+#Proj_container2 {
+    width: 30%;
+    height: 20%;
+    min-width: 300px;
+    height: 200px;
+    background-color: #F57419;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
     text-align: center;
     border-radius: 30px;
 }
@@ -189,6 +214,16 @@
 }
 
 #Maid-icon {
+    height: 50%;
+    width: auto;
+    max-height: 150px;
+    max-width: auto;
+    margin: auto;
+    border: 10px solid black;
+    border-radius: 50%;
+}
+
+#HA-icon {
     height: 50%;
     width: auto;
     max-height: 150px;
@@ -212,4 +247,15 @@
     background-color: #000;
     border: 10px solid #000;
     border-radius: 30px;
+}
+
+#Proj_Span {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+@media all and (max-width: 700px) {
+    #Proj_Span { display: inline-block; }
+    #Project_container2 { margin-top: 20px; }
 }
