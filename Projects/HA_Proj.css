@@ -360,6 +360,17 @@
     padding-bottom: 20px;
 }
 
+#Sprint_undone_last {
+    display: inline-flex;
+    height: fit-content;
+    width: 100%;
+    background-color: grey;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 #dev_team {
     width: 100%;
     display: inline-flex;
@@ -489,7 +500,6 @@
 #Sprint1_container {
     width: 100%;
     height: fit-content;
-    max-height: fit-content;
     background-color: white;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -497,7 +507,7 @@
     border-bottom: 5px solid grey;
     visibility: hidden;
     display: none;
-    transition: 0.2s ease-in;
+    transition: max-height 0.2s ease-out;
 }
 
 #bold {
@@ -589,4 +599,30 @@
     margin-right: 10%;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+#Enlarge-close {
+    background-color: transparent;
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    right: 0%;
+    height: 20px;
+    width: auto;
+    margin-right: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: none;
+    visibility: hidden;
+}
+
+#Arrow_up {
+    right: 0%;
+    height: 20px;
+    width: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10%;
+    display: none;
+    visibility: hidden;
 }
