@@ -63,6 +63,7 @@
     width: 100px;
     white-space: nowrap;
     text-decoration: none;
+    text-decoration: none;
 }
 
 #format2 {
@@ -89,6 +90,7 @@
     margin-left: 35%;
     margin-top: 140px;
     display: inline-block;
+    text-decoration: none;
 }
 
 @media all and (max-width: 650px) {
@@ -293,6 +295,7 @@
     font-size: 80%;
     line-height: 200%;
     width: 100%;
+    margin: auto;
 }
 
 #Proj_Statement {

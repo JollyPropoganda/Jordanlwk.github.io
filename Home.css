@@ -66,6 +66,7 @@
     height: 50px;
     margin-left: 10px;
     white-space: nowrap;
+    text-decoration: none;
 }
 
 #Astronaut {
@@ -92,6 +93,7 @@
     margin-right: 15%;
     width: 100px;
     white-space: nowrap;
+    text-decoration: none;
 }
 
 #format2 {
@@ -118,6 +120,7 @@
     margin-left: 35%;
     margin-top: 140px;
     display: inline-block;
+    text-decoration: none;
 }
 
 @media all and (max-width: 650px) {
