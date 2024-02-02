@@ -7,7 +7,7 @@ function openup() {
   dropdown.style.visibility = "visible";
   dropdown.style.display = "block";
   dropdown.style.height = "fit-content";
-  dropdown.style.width = "fit-content";
+  dropdown.style.width = "100%";
   dropdown.style.transition = "max-height 0.2 ease-out"
   arrow1.style.visibility = "hidden";
   arrow1.style.display = "none";
