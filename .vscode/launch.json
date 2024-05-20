@@ -17,7 +17,7 @@
             "request": "launch",
             "name": "Launch Chrome against localhost",
             "url": "http://localhost:8080",
-            "file": "${workspaceFolder}/Home.html"
+            "file": "${workspaceFolder}/Windows_error.html"
         }
     ]
 }
